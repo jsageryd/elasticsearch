@@ -1,4 +1,3 @@
-FROM elasticsearch:2.4.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:5.2.2
 
-RUN plugin install analysis-icu
-RUN plugin install delete-by-query
+RUN elasticsearch-plugin install analysis-icu

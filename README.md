@@ -1,11 +1,9 @@
-# Elasticsearch with ICU and DBQ
+# Elasticsearch with ICU
 
-This is a Dockerfile for [Elasticsearch][1] with plugins [ICU Analysis][2] and
-[Delete By Query][3].
+This is a Dockerfile for [Elasticsearch][1] with plugin [ICU Analysis][2].
 
 [1]: https://www.elastic.co/
-[2]: https://www.elastic.co/guide/en/elasticsearch/plugins/2.4/analysis-icu.html
-[3]: https://www.elastic.co/guide/en/elasticsearch/plugins/2.4/plugins-delete-by-query.html
+[2]: https://www.elastic.co/guide/en/elasticsearch/plugins/5.2/analysis-icu.html
 
 ## Usage
 ```
