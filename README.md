@@ -7,7 +7,7 @@ This is a Dockerfile for [Elasticsearch][1] with plugin [ICU Analysis][2].
 
 ## Usage
 ```
-docker run -t -i -p 9200:9200 --name elasticsearch jsageryd/elasticsearch
+docker run -ti --rm -p 9200:9200 jsageryd/elasticsearch
 ```
 
 ## Licence
